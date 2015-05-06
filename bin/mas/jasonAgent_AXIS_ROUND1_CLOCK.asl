@@ -207,6 +207,7 @@ patrollingRadius(64).
 +!update_targets <-
 	  .my_name(Me);	
 	  ?round(ROUND);
+	  ?distance(DISTANCE);
 	  ?pos_initial_flag(INITIALFLAGX,INITIALFLAGY,INITIALFLAGZ);  
 	  if(corner(0)){
 	      !safe_pos(INITIALFLAGX+ROUND,0,INITIALFLAGZ+DISTANCE); // Hay valores para safe_pos que no van //
